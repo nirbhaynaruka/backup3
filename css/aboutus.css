@@ -135,7 +135,7 @@ h1 {
 .rect{
   background: white;
   position: relative;
-  width: 185px;
+  width: 13rem;
   height: 13rem;
   padding-top: 5vmin;
   border-radius: 0.4em;
@@ -160,12 +160,12 @@ h1 {
   background-position: 40%;
   background-size: 340px;
 }
-.rect>h1{
+.rect>h3{
   text-align: center;
   padding-top: 30px;
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.8em;
   color: black;
 }
 #ourteam{
