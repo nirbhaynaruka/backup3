@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=El+Messiri");
+
+.fixed {
+    position: sticky;
+    top:0; 
+    left:0;
+    width: 100%; 
+    background-color: transparent;
+    z-index: 10;
+    z-index: 10;
+
+}
+p{
+    font-size: 1.2em;
+}
