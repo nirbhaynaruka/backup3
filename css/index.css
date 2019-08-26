@@ -23,14 +23,18 @@
 
 }
 p{
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 .hidediv{
-    transition:0.3s all ease ; 
+    transition:0.3s; 
+    transition-timing-function: ease;
         display: none;
+        position: absolute;
+    transition-delay: 2000ms
 }
   .hide{
   position: fixed;
+  z-index: -99;
   }
   
   .headertoggle .newnavbar{
