@@ -24,3 +24,10 @@
 p{
     font-size: 1.2em;
 }
+.hidediv{
+    transition-delay:0.5s all ease ; 
+        display: none;
+}
+  .hide{
+  position: fixed;
+  }
