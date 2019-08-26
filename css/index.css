@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=El+Messiri");
-
+#myheader{
+    position: fixed;
+    background-color: transparent;
+    background: transparent;
+    backface-visibility: hidden;
+}
+.navbar{
+    background: transparent;
+}
+#button_head{
+    background: black;
+}
 .fixed {
     position: sticky;
     top:0; 
