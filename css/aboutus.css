@@ -172,6 +172,12 @@ h1 {
   /* background-image: url("../assets/dot_bg4.png") */
 }
 
+.content_about>p{
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
 .card {
   z-index: 100;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
