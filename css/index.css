@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=El+Messiri");
-#myheader{
+#myHeader{
     position: fixed;
     background-color: transparent;
     background: transparent;
@@ -19,15 +19,22 @@
     background-color: transparent;
     z-index: 10;
     z-index: 10;
+    
 
 }
 p{
     font-size: 1.2em;
 }
 .hidediv{
-    transition-delay:0.5s all ease ; 
+    transition:0.3s all ease ; 
         display: none;
 }
   .hide{
   position: fixed;
   }
+  
+  .headertoggle .newnavbar{
+    transition: 0.3s;
+    background-color:black;
+    color: white;
+}
