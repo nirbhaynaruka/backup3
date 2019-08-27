@@ -1,40 +1,132 @@
 @import url("https://fonts.googleapis.com/css?family=El+Messiri");
-#myHeader{
+
+#myHeader {
     position: fixed;
     background-color: transparent;
     background: transparent;
     backface-visibility: hidden;
 }
-.navbar{
+
+.navbar {
     background: transparent;
 }
-#button_head{
+
+#button_head {
     background: black;
 }
+
 .fixed {
     position: sticky;
-    top:0; 
-    left:0;
-    width: 100%; 
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: transparent;
     z-index: 10;
     z-index: 10;
-    
+
 
 }
-p{
+
+p {
     font-size: 1.2em;
 }
-.hidediv{
-    transition:0.3s all ease ; 
-        display: none;
+
+.hidediv {
+    transition: 0.3s all ease;
+    display: none;
 }
-  .hide{
-  position: fixed;
-  }
-  
-  .headertoggle .newnavbar{
+
+.hide {
+    position: fixed;
+}
+
+.headertoggle .newnavbar {
     transition: 0.3s;
-    background-color:black;
+    background-color: black;
     color: white;
+}
+
+#ourfeatures>section{
+    background-image: url("../assets/DOTTED.png");
+    /* background-size: 100px; */
+    /* background-size: cover; */
+    background-position: 50% 50%;
+    background-repeat: repeat;
+}
+
+.numbers {
+    /* padding: 2vmin 0 0 2vmin; */
+    /* position: absolute; */
+    height: 360px;
+
+}
+
+#head_f {
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.rect {
+    background: white;
+    /* position: relative; */
+    display: flex;
+    width: 16rem;
+    height: 16rem;
+    padding-top: 5vmin;
+    border-radius: 0.4em;
+    margin: 3em 2em 5em 5em;
+    box-shadow: 0px 10px 42px rgba(243, 243, 243, 0.4);
+}
+
+.rect:nth-child(1) {
+    background-image: url("../assets/feature_game.png");
+    background-repeat: no-repeat;
+    background-position: 30% 70%;
+    background-size: 380px;
+}
+
+.rect:nth-child(2) {
+    background-image: url("../assets/feature_perf.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 340px;
+}
+
+.rect:nth-child(3) {
+    background-image: url("../assets/feature_cont.png");
+    background-repeat: no-repeat;
+    background-position: 40%;
+    background-size: 340px;
+}
+
+.rect>h3 {
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    color: black;
+}
+
+.rect:hover {
+    box-shadow: 0px 10px 42px rgba(139, 128, 128, 0.5);
+    width: 17rem;
+    height: 17rem;
+}
+
+.rect:hover h3 {
+    font-size: 2.2em;
+}
+
+#ourteam {
+    /* background-image: url("../assets/dot_bg4.png") */
+}
+
+.content_about>p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
 }
