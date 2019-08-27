@@ -86,6 +86,7 @@ body {
     color: white;
     margin: 1em 0 1em 0;
     height: 400px;
+    background-image: url('../assets/DOTTED.png'); background-repeat: no-repeat;background-position: 125%;
 }
 
 .content {
