@@ -26,21 +26,22 @@
 
 
 }
-
-p {
-    font-size: 1.2em;
+p{
+    font-size: 1.5em;
 }
-
-.hidediv {
-    transition: 0.3s all ease;
-    display: none;
+.hidediv{
+    transition:0.3s; 
+    transition-timing-function: ease;
+        display: none;
+        position: absolute;
+    transition-delay: 2000ms
 }
-
-.hide {
-    position: fixed;
-}
-
-.headertoggle .newnavbar {
+  .hide{
+  position: fixed;
+  z-index: -99;
+  }
+  
+  .headertoggle .newnavbar{
     transition: 0.3s;
     background-color: black;
     color: white;

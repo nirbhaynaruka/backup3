@@ -113,6 +113,23 @@ h1 {
   display: none
 }
 
+.contact_us {
+  text-align: -webkit-center;
+  margin: 50px 0 10px 0;
+}
+
+.contact_us>h4 {
+  font-size: 2em;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px;
+}
+.contact_us>p {
+  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  padding: 15px 0 5px 0;
+}
+
+
 .parallax1 {
   /* background-image: url('../assets/world_bg.png'); */
   /* background-color: transparent; */
