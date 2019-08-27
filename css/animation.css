@@ -1,5 +1,10 @@
-
-
+.navbar-toggler{
+  color: ghostwhite;
+  
+}
+button:focus {
+  outline:0;
+}
   .animation-element {
     opacity: 0;
     /* position: relative; */

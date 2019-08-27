@@ -24,8 +24,24 @@
     <link rel="stylesheet" href="css/aboutus.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/index.css">
-    <!-- <link rel="stylesheet" href="../css/style.css"> -->
-    <!-- <script src/="aboutus.js"></script> -->
+    <link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+<!-- <link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<style>
+  @media (min-width: 500px) and (max-width: 600px) {
+    .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+  }
+</style> -->
+   
     <title>BackUp</title>
     <script>
         $(document).ready(function () {
@@ -45,8 +61,8 @@
             <img style="width:230px;margin:0 0 0 -160px;" src="assets/backup_head_text.png" alt="" id="logo">
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="color: ghostwhite;">
+                <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="mr-auto"></div>
@@ -67,11 +83,12 @@
                             <a class="nav-link"
                             href="html/contact.html"><button type="button" id="button_head" style="color: white; background: transparent;">Contact</button></a>
                     </li>
+                    
                 </ul>
             </div>
         </nav>
     </header>
-    <div class="particle">
+    <div class="particle ">
         <div id="particles-js">
             <div class="main_heading hide" id="fadein" style="z-index: 10;display: none;">
                 <img style="width:115px;margin:0 21px 0 0" src="assets/logo.png">
@@ -82,7 +99,7 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid" style="z-index: 99;">
+    <div class="" style="z-index: 99;">
         <div id="aboutus" class="scrollTo" style="padding: 8%; z-index: 99;">
             <section>
                 <div class="row" style="margin-top:10px">
