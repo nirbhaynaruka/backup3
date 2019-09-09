@@ -105,16 +105,18 @@
             </section>
         </div>
         <div id="ourTeam" class="container-fluid" style="color:white;background-color:black;">
-            <section class="row">
-                <div style="padding-left:40px;background-color: #045a0a;"></div>
-                <div id="hidden2" class="animation-element slide-left testimonial col-md-11">
+            <section class="row" style="z-index: 0;">
+                <div class="col-md-1">
+                      <div style="padding-left:40px;background-color: #045a0a;"></div>
+                </div>
+                <div id="hidden2" class="animation-element slide-left testimonial col-md-11" style="z-index: 0;">
                     <h1 style="text-align: center;color: white;">Our <span style="color:#045a0a;">Team</span></h1>
                 </div>
-                <div class="container-fluid row">
+                <div class="container-fluid row" style="z-index:0;">
                     <div style="padding-left:40px;background-color: #045a0a;"></div>
                     <div class="col-md-5 row animation-element slide-left testimonial" style="margin-left: 125px;">
-                        <div class="col-md-4" style="z-index: 0;"> <img src="../Website Template/tushar.png"
-                                style="width:80%;margin:30px 0 0 20px;border-radius: 50%; border: 4px solid green;">
+                        <div class="col-md-4" style="z-index: 0;"> <img class="tushar_img" src="../Website Template/tushar.png"
+                                style="">
 
                         </div>
                         <div class="col-md-8" style="margin-top:50px;">
@@ -138,8 +140,8 @@
                         </div>
                     </div>
                     <div class="col-md-5 row animation-element slide-right testimonial" style="margin: 5px;">
-                        <div class="col-md-4" style="z-index: 0;"> <img src="../Website Template/anshul.png"
-                                style="width:80%;margin:30px 0 0 20px;border-radius: 50%; border: 4px solid green;"></div>
+                        <div class="col-md-4" style="z-index: 0;"> <img class="anshul_img" src="../Website Template/anshul.png"
+                        ></div>
                         <div class="col-md-8" style="margin-top:50px">
                             <h3 style="color: white;"> Anshul Jain, &nbsp;<span style="color:green;">CTO</span>
                                 <hr style="width:40%;margin:0;background: #045a0a;">
@@ -185,7 +187,7 @@
                 <a href="#" style="margin:0 15px 0 15px"><i class="fab fa-instagram fa-2x" id="foot_icon"></i></a>
                 <a href="#"><i class="fab fa-twitter fa-2x" id="foot_icon"></i></a>
             </div>
-            <div class="col-md-6" style="text-align: end; padding-right:120px;font-size:1.5em;">
+            <div class="col-md-6 quaffle" >
                 <p style="color: white;">
                     Powered by <span><img src="../Website Template/quaffle.jpg" alt="quaffle.jpg"
                             class="quaffle_img"></span> <span style="font-weight: bold;color:green;">Quaffle</span>
